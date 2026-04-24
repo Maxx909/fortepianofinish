@@ -38,7 +38,6 @@ keys_list = list(KEYS.keys())[:num_keys]
 key_rects = create_key_rects(num_keys)
 
 
-# В ній:
 # - змінити глобальні use_random_sounds та generated_sounds
 # - якщо увімкнули (True): перевірити/створити папку (os.path.exists / os.makedirs)
 # - згенерувати шляхи через generate_random_bank
