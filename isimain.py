@@ -156,7 +156,7 @@ while running:
         settings_menu.draw(screen, my_font)
         if random_toggle:
             random_toggle.draw(screen, my_font)
-        # TODO 15 (Челендж): Намалювати текст "Random: ON/OFF" поруч із тумблером (через font.render та screen.blit)
+
     else:
         for button in buttons:
             button.draw(screen, my_font)
